@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: 'http://jsonplaceholder.typicode.com',
+        target: 'http://localhost:5000',
         changeOrigin: true,
       }
     },
